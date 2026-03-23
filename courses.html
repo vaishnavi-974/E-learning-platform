@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <title>Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+    <div class="icon">
+        <div class="logo">Upskill</div>
+
+        <div class="rem">
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+</div>
+
+<div class="sec">
+    <h2>Top Courses</h2>
+
+    <div class="course-cont">
+
+    <div class="course-card">
+        
+        <h3>Artificial Intelligence</h3>
+        <p><strong>Instructor:</strong>Jhon
+        </p>
+        <p><strong>Price:</strong>599/-</p>
+        <p><strong>Rating:</strong>⭐4.5</p>
+        <button onclick="showDetails('ai')">View Details</button>
+    </div>
+
+    <div class="course-card">
+        <h3>Cyber Security</h3>
+        <p><strong>Instructor</strong>Alice</p>
+        <p><strong>Price:</strong>499/-</p>
+        <p><strong>Rating:</strong>⭐4.2</p>
+        <button onclick="showDetails('cs')">View Details</button>
+    </div>
+
+    <div class="course-card">
+        <h3>Deep learning</h3>
+        <p><strong>Instructor</strong>Harry</p>
+        <p><strong>Price:</strong>699/-</p>
+        <p><strong>Rating:</strong>⭐4.3</p>
+        <button onclick="showDetails('dl')">View Details</button>
+    </div>
+
+<div class="course-card">
+        <h3>Machine Learning</h3>
+        <p><strong>Instructor</strong>Ritche</p>
+        <p><strong>Price:</strong>799/-</p>
+        <p><strong>Rating:</strong>⭐4.7</p>
+        <button onclick="showDetails('ml')">View Details</button>
+    </div>
+
+</div>
+
+<!-- DETAILS SECTION -->
+<div id="courseDetails" class="sec">
+    <h2>Course Details</h2>
+    <p>Select a course to see details</p>
+</div>
+
+<script src="script.js"></script>
+
+</div>
+
+</body>
+</html>
