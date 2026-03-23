@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<courses>
+    <course>
+        <title>Artificial Intelligance</title>
+        <instructor>Jhon</instructor>
+        <price>599</price>
+        <rating>4.5</rating>
+    </course>
+    <course>
+        <title>Cyber Security</title>
+        <instructor>Alice</instructor>
+        <price>499</price>
+        <rating>4.2</rating>
+    </course>
+    <course>
+        <title>Deep Learning</title>
+        <instructor>Harry</instructor>
+        <price>699</price>
+        <rating>4.3</rating>
+    </course>
+    <course>
+        <title>Machine Learning </title>
+        <instructor>Ritche</instructor>
+        <price>799</price>
+        <rating>4.7</rating>
+    </course>
+</courses>
